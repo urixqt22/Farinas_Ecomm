@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 50px;
+  }
+  
+  .logo span {
+    color:  #83b735;
+    font-size: 50px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 15px 0;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .cart {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart .bx-cart {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .cart #cart-items {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #e8491d;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  .checkout-main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  
+  .checkout-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .checkout-container input {
+    width: calc(100% - 20px); /* Adjusted width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  .checkout-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-container button:hover {
+    background-color: #e8491d;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content h3 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-content p {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .footer-bottom {
+    background-color: #292929;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #464646;
+  }
+  
