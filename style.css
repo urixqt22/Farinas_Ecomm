@@ -321,15 +321,3 @@ footer {
 .socials i {
     font-size: 30px; 
 }
-
-/* Existing CSS */
-
-.product-details {
-    display: none;
-    font-size: 0.9em;
-    margin-top: 10px;
-}
-
-.product-card:hover .product-details {
-    display: block;
-}
